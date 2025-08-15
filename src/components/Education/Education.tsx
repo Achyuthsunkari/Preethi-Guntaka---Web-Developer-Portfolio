@@ -19,7 +19,7 @@ const Education: React.FC = () => {
       degree: "SSC",
       institution: "St. Xavier's High School, Ongole",
       year: "2018 - 2020",
-      cgpa: "9.8 CGPA"
+      cgpa: "10 CGPA"
     }
   ];
 
