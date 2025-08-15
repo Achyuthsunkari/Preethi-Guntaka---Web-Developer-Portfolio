@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
                   <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <span className="text-gray-300">22kq1a4710iot@gmail.com</span>
+                  <span className="text-gray-300">preethiguntaka186@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
               </p>
               <div className="flex gap-4 justify-start">
                 <button
-                  onClick={() => window.location.href = 'mailto:22kq1a4710iot@gmail.com'}
+                  onClick={() => window.location.href = 'mailto:preethiguntaka186@gmail.com'}
                   className="px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 font-semibold"
                 >
                   Email Me

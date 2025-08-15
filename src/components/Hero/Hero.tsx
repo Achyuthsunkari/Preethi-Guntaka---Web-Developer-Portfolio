@@ -1,4 +1,5 @@
 import React from 'react';
+import ProfileImage from "../../assets/preethi-guntaka.png";
 
 interface HeroProps {
   scrollToSection: (sectionId: string) => void;
@@ -10,7 +11,11 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8">
           <div className="w-64 h-64 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center">
-            <img src="./src/assets/preethi-guntaka.png" alt="Preethi Guntaka" className="w-full h-full object-cover rounded-full" />
+            <img 
+              src={ProfileImage} 
+              alt="Preethi Guntaka" 
+              className="w-full h-full object-cover rounded-full" 
+            />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
             Preethi Guntaka
